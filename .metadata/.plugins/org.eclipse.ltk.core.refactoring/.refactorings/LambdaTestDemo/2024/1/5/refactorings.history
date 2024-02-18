@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;demo.BrowserTest&apos; to &apos;TestNGTodo&apos;&#x0D;&#x0A;- Original project: &apos;LambdaTestDemo&apos;&#x0D;&#x0A;- Original element: &apos;demo.BrowserTest&apos;&#x0D;&#x0A;- Renamed element: &apos;demo.TestNGTodo&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;BrowserTest&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src\/test\/java=/test=/true=/=/optional=/true=/=/maven.pomderived=/true=/&lt;demo{BrowserTest.java[BrowserTest" matchStrategy="1" name="TestNGTodo" qualified="false" references="true" similarDeclarations="false" stamp="1706490999913" textual="false" version="1.0"/>
+</session>

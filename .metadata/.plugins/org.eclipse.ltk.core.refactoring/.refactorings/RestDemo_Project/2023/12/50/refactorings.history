@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;DynamicJson.java&apos; to &apos;RestDemo_Project/src/Files&apos;&#x0D;&#x0A;- Original project: &apos;RestDemo_Project&apos;&#x0D;&#x0A;- Destination element: &apos;RestDemo_Project/src/Files&apos;&#x0D;&#x0A;- Original element: &apos;Files.DynamicJson.java&apos;" description="Copy compilation unit" destination="/src=/optional=/true=/=/maven.pomderived=/true=/&lt;Files" element1="/src=/optional=/true=/=/maven.pomderived=/true=/&lt;Files{DynamicJson.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1702423993917" units="1" version="1.0"/>
+</session>

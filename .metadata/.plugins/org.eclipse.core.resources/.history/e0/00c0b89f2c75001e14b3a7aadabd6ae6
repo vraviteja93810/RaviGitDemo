@@ -1,0 +1,19 @@
+import java.util.Optional;
+
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.devtools.DevTools;
+import org.openqa.selenium.devtools.v116.emulation.Emulation;
+
+public class ChromeTest {
+public static void main(String[] args) {
+	
+	System.setProperty("webdriver.chrome.driver","C:\\Users\\vredd\\OneDrive\\Desktop\\Ravi Personal\\Rahul shetty courses\\selenium webdriver\\Selenium Documents and files and executable files\\chromedriver.exe");
+	ChromeDriver driver=new ChromeDriver();
+	DevTools devtool = driver.getDevTools();
+	devtool.createSession();
+	//now we can send commands to CDP>CDP method will invoke and get access chromedev tools.
+	devtool.send(Emulation.setDeviceMetricsOverride(600, 1000,50, true, Optional.empty(), Optional.empty(),Optional.empty(), Optional.empty(), Optional.empty(),Optional.empty(),Optional.empty(), Optional.empty(), Optional.empty()));
+	driver.get("https://rahulshettyacademy.com/angularAppdemo/");
+	
+}
+}

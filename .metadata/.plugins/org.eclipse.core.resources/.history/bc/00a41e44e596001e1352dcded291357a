@@ -1,0 +1,19 @@
+import Files.Payload;
+import io.restassured.path.json.JsonPath;
+
+public class ComplexJsonParse {
+public static void main(String[] args) {
+	
+	JsonPath js=new JsonPath(Payload.CoursePrice());
+	//print number of courses returned by API.
+	System.out.println("course size is="+js.getInt("courses.size()"));
+	//print purchase amount
+	System.out.println("Total amount="+js.getInt("dashboard.purchaseAmount"));
+	//Print title of the 0th index of courses array let see.
+	System.out.println("title="+js.getString("courses[0].title"));
+	//print all the titles of the courses array and its respective courses.
+	System.out.println("title="+js.getString("courses.title"));
+
+	
+}
+}

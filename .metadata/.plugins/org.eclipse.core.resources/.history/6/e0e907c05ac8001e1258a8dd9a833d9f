@@ -1,0 +1,15 @@
+import java.io.FileInputStream;
+import java.io.IOException;
+
+import org.apache.poi.xssf.usermodel.XSSFWorkbook;
+
+public class DatadrivenTest {
+
+	public static void main(String[] args) throws IOException {
+		FileInputStream fis=new FileInputStream("DatadrivenTestSample.xlsx");
+		XSSFWorkbook book=new XSSFWorkbook(fis);
+		
+		
+	}
+
+}

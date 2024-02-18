@@ -1,0 +1,18 @@
+import java.io.FileInputStream;
+import java.io.IOException;
+
+import org.apache.poi.xssf.usermodel.XSSFWorkbook;
+
+public class DatadrivenTest {
+
+	public static void main(String[] args) throws IOException {
+		FileInputStream fis=new FileInputStream("DatadrivenTestSample.xlsx");
+		XSSFWorkbook workbook=new XSSFWorkbook(fis);
+		int sheetsCount = workbook.getNumberOfSheets();
+		for(int i=0;i<sheetsCount;i++)
+		{
+			
+		}
+	}
+
+}

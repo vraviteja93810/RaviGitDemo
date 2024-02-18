@@ -1,0 +1,10 @@
+package JavaprogramsArrays;
+
+public class DuplicatevalueinArray {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

@@ -1,0 +1,12 @@
+package JavaprogramsArrays;
+
+public class DuplicatevalueinArray {
+
+	public static void main(String[] args) {
+//	here set is an unordered collection of objects in which duplicates values are not allowed.
+//		set is an interface and it is implemented by hashset, likedhashset or treeset class.
+		
+
+	}
+
+}

@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-10-25T09:02:15 IST" name="Default suite" finished-at="2023-10-25T09:02:16 IST" duration-ms="869">
+    <groups>
+    </groups>
+    <test started-at="2023-10-25T09:02:15 IST" name="Default test" finished-at="2023-10-25T09:02:16 IST" duration-ms="869">
+      <class name="datadrivendemo.dataProvider">
+        <test-method signature="testCaseData(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:datadrivendemo.dataProvider@74751b3]" started-at="2023-10-25T09:02:16 IST" name="testCaseData" data-provider="driverTest" finished-at="2023-10-25T09:02:16 IST" duration-ms="7" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Login]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[dffd]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[dfd]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[dser]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCaseData -->
+        <test-method signature="testCaseData(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:datadrivendemo.dataProvider@74751b3]" started-at="2023-10-25T09:02:16 IST" name="testCaseData" data-provider="driverTest" finished-at="2023-10-25T09:02:16 IST" duration-ms="3" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Purchase]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[sfs]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1245]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[fsf]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCaseData -->
+        <test-method signature="testCaseData(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:datadrivendemo.dataProvider@74751b3]" started-at="2023-10-25T09:02:16 IST" name="testCaseData" data-provider="driverTest" finished-at="2023-10-25T09:02:16 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Profile]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[fsfd]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[sdfaf]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[dhdfh]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCaseData -->
+        <test-method signature="testCaseData(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:datadrivendemo.dataProvider@74751b3]" started-at="2023-10-25T09:02:16 IST" name="testCaseData" data-provider="driverTest" finished-at="2023-10-25T09:02:16 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Add profile]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[dhg]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[hdhg]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[rtrtrtd]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCaseData -->
+        <test-method signature="testCaseData(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:datadrivendemo.dataProvider@74751b3]" started-at="2023-10-25T09:02:16 IST" name="testCaseData" data-provider="driverTest" finished-at="2023-10-25T09:02:16 IST" duration-ms="3" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Delete profile]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[trfh]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[dhgdhd]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[dhd]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCaseData -->
+      </class> <!-- datadrivendemo.dataProvider -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

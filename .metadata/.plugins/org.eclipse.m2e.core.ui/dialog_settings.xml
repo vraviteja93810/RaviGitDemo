@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="wizardPage">
+		<list key="groupId">
+			<item value="RestDemo_Project"/>
+			<item value="Raviteja"/>
+			<item value="SeleniumFeaturesLatest"/>
+			<item value="Rahulshettyacademy"/>
+		</list>
+		<list key="name">
+		</list>
+		<list key="artifactId">
+			<item value="RestDemo_Project"/>
+			<item value="CrossBrowserTestonCloud"/>
+			<item value="SeleniumFeaturesLatest"/>
+			<item value="selenium-java"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+	<section name="org.eclipse.m2e.core.pom.overview">
+	</section>
+	<section name="org.eclipse.m2e.core.pom.dependencies">
+	</section>
+	<section name="MavenProjectWizardLocationPage">
+		<list key="location">
+			<item value="C:\Users\vredd\eclipse-workspace\APIFramework\src\test\java\graphql\GraphQLScript.java"/>
+			<item value="C:\Users\vredd\eclipse-workspace\SeleniumFrameworkDesign\src\test\java\raviteja\testcomponents\BaseTest.java"/>
+			<item value="C:\Users\vredd\eclipse-workspace\Dhurga_Java\src\programs\Static_Flow.java"/>
+			<item value="C:\Users\vredd\eclipse-workspace\HYR_PractiseExtent"/>
+			<item value="C:\Users\vredd\eclipse-workspace\ExcelDriven\src\test\java\Datadriven.java"/>
+			<item value="C:\Users\vredd\eclipse-workspace\TestNGTutorial"/>
+			<item value="C:\Users\vredd\eclipse-workspace\Introduction\src\WebElementScreenshot.java"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="MavenProjectWizardArchetypePage">
+		<item key="catalog" value="All Catalogs"/>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="Maven2ProjectWizardArchifactPage">
+		<list key="package">
+		</list>
+		<list key="groupId">
+		</list>
+		<list key="artifactId">
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+	<section name="MavenProjectWizardArtifactPage">
+		<list key="groupId">
+			<item value="Framework"/>
+			<item value="LambdaTestDemo"/>
+		</list>
+		<list key="name">
+		</list>
+		<list key="artifactId">
+			<item value="DataDrivenXL"/>
+			<item value="LambdaTestDemo"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+	<section name="MavenProjectImportWizardPage">
+		<list key="rootDirectory">
+			<item value="C:\Users\vredd\Downloads\APIFramework"/>
+			<item value="C:\Users\vredd\OneDrive\Desktop\Ravi Personal\Rahul shetty courses\selenium webdriver\Selenium webdriver notes\BDD Cucumber Framework\Trainer code\CucumberFrameworkTrainerCode"/>
+			<item value="C:\Users\vredd\OneDrive\Desktop\Ravi Personal\Rahul shetty courses\selenium webdriver\Selenium webdriver notes\BDD Cucumber Framework\Trainer code\CucumberFramework"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+</section>

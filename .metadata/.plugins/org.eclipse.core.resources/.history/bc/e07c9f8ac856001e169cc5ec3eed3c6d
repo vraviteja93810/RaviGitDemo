@@ -1,0 +1,13 @@
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class LocatorsDemo1 {
+public static void main(String[] args) {
+	System.setProperty("webdriver.chrome.driver","C:\\Users\\vredd\\OneDrive\\Desktop\\Ravi Personal\\Rahul shetty courses\\selenium webdriver\\Selenium Documents and files and executable files\\chromedriver.exe");
+    WebDriver driver=new ChromeDriver();
+    driver.get("https://rahulshettyacademy.com/locatorspractice/");
+    driver.findElement(By.id("inputUsername")).sendKeys("Rahul");
+    
+}
+}

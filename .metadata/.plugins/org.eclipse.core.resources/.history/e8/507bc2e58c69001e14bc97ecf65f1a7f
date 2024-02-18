@@ -1,0 +1,19 @@
+package javasteams;
+
+class Employee
+{
+	int empId;
+	String empName;
+	int salary;
+	Employee(int empId, String empName, int salary)
+	{
+		
+	}
+}
+
+
+public class MapAndFilterDemo {
+public static void main(String[] args) {
+	
+}
+}

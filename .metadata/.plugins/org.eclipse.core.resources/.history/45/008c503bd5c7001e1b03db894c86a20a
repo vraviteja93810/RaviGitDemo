@@ -1,0 +1,12 @@
+package stepdefinitions;
+
+import io.cucumber.java.Before;
+
+public class Hooks {
+@Before("@Deleteplace ")
+public void beforeScenario()
+{
+	//Write a code that will give you place id.
+	//execute this code only when place id is null.
+}
+}

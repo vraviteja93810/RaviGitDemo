@@ -1,0 +1,24 @@
+package javasteams;
+
+import java.util.ArrayList;
+import java.util.List;
+
+class Employee
+{
+	int empId;
+	String empName;
+	int salary;
+	
+	Employee(int empId, String empName, int salary)
+	{
+		
+	}
+}
+
+
+public class MapAndFilterDemo {
+public static void main(String[] args) {
+	List<Employee> EmployeeList=new ArrayList<Employee>();
+	
+}
+}

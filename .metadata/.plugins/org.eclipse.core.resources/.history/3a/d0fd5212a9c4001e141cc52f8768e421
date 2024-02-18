@@ -1,0 +1,10 @@
+package collection;
+
+import java.util.Map;
+
+public class MapDemo {
+public static void main(String[] args) {
+	Map m=new Map();
+	
+}
+}

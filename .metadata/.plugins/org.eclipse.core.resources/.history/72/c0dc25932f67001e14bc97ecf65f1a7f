@@ -1,0 +1,26 @@
+package javasteams;
+
+import java.util.ArrayList;
+import java.util.List;
+import java.util.stream.Collectors;
+
+public class SreamDemo {
+	public static void main(String[] args) {
+		
+	
+ArrayList<Integer> a=new ArrayList<Integer>();
+a.add(0);
+a.add(10);
+a.add(11);
+a.add(5);
+a.add(15);
+a.add(25);
+//The above is arraylist.
+
+//from the above collection we have to filter only even numbers.
+System.out.println(a);
+List<Integer> List2 = a.stream().filter(i->i%2==0).collect(Collectors.toList());
+
+
+	}
+}

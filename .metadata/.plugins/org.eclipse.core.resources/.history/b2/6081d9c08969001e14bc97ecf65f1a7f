@@ -1,0 +1,14 @@
+package javasteams;
+
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
+
+public class MapDemo2 {
+public static void main(String[] args) {
+	List<String> vehicles=Arrays.asList("Bus","Bicycle","Flight","Train");
+	List<String>VehiclesUppercase=new ArrayList<String>();
+	
+	//Here we want to fetch the all lengths of the 
+}
+}

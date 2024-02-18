@@ -1,0 +1,15 @@
+package javasteams;
+
+import java.util.ArrayList;
+
+public class SreamsFilterDemo_SDET {
+public static void main(String[] args) {
+	ArrayList<Integer> numbers=new ArrayList();
+	numbers.add(10);
+	numbers.add(15);
+	numbers.add(30);
+	numbers.add(40);
+	numbers.add(50);
+	
+}
+}

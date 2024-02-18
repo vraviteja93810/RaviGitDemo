@@ -1,0 +1,31 @@
+import Files.Payload;
+import io.restassured.path.json.JsonPath;
+
+public class ComplexJsonParse {
+public static void main(String[] args) {
+	
+	JsonPath js=new JsonPath(Payload.CoursePrice());
+	//print number of courses returned by API.
+	System.out.println("course size is="+js.getInt("courses.size()"));
+	int size = js.getInt("courses.size()");
+	//print purchase amount
+	System.out.println("Total amount="+js.getInt("dashboard.purchaseAmount"));
+	//Print title of the 0th index of courses array let see.
+	System.out.println("title="+js.getString("courses[0].title"));
+	
+	//printing all the titles and its prices as well.
+	System.out.println("printing all the titles in array*************************");
+	System.out.println();
+	for(int i=0;i<size;i++)
+	{
+		System.out.println("title="+js.getString("courses["+i+"].title"));
+		System.out.println("price="+js.getInt("courses["+i+"].price"));
+		if(js.getString("courses["+i+"].title").equalsIgnoreCase("RPA"))
+		{
+			System.out.println("Copies of "+js.getString("courses["+i+"].title")+"is:"+js.getInt("courses["+i+"].price"));
+			
+		}
+		
+	}
+}
+}

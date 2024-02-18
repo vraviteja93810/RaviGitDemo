@@ -1,0 +1,33 @@
+package collection;
+
+import java.util.Collection;
+import java.util.HashMap;
+import java.util.Iterator;
+import java.util.Map;
+import java.util.Set;
+
+import m.Entry;
+
+public class MapDemo {
+private static Object m2;
+
+public static void main(String[] args) {
+	Map m=new HashMap();
+	m.put("Chiranjeevi","100");
+	m.put("Nagarjuna", 200);
+	m.put("Venky",300);
+	m.put("Raviteja", 600);
+	System.out.println(m);
+	Set s=m.keySet();
+	System.out.println(s);
+	Collection c = m.values();
+	System.out.println(c);
+	Set entry = m.entrySet();
+	System.out.println(entry);
+	Iterator itr = c.iterator();
+	while(itr.hasNext())
+	{
+		  java.util.Map.Entry e1 = (Map.Entry)itr.next();
+	}
+}
+}

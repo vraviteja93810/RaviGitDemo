@@ -1,0 +1,29 @@
+package javasteams;
+
+import java.util.ArrayList;
+import java.util.List;
+import java.util.stream.Collectors;
+
+public class SreamsFilterDemo_SDET {
+public static void main(String[] args) {
+	ArrayList<Integer> numbers=new ArrayList();
+	numbers.add(10);
+	numbers.add(15);
+	numbers.add(30);
+	numbers.add(40);
+	numbers.add(50);
+	
+	//Now i need to filter only even numbers from the above collection.
+	/*
+	List<Integer> evenCollection = numbers.stream().filter(i->i%2==0).collect(Collectors.toList());
+	
+	System.out.println(evenCollection);
+	*/
+	
+	//Suppose if we want to print the all values from the collection.
+	//numbers.stream().filter(i->i%2==0).forEach(n->System.out.println(n));
+	
+	numbers.stream().filter(i->i%2==0).forEach(System.out::println);
+	
+}
+}
