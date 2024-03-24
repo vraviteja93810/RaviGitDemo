@@ -25,6 +25,7 @@
 	</section>
 	<section name="MavenProjectWizardLocationPage">
 		<list key="location">
+			<item value="C:\Users\vredd\eclipse-workspace\Appium\src\test\java\ravitejacademy\BrowserTestDemo.java"/>
 			<item value="C:\Users\vredd\eclipse-workspace\APIFramework\src\test\java\graphql\GraphQLScript.java"/>
 			<item value="C:\Users\vredd\eclipse-workspace\SeleniumFrameworkDesign\src\test\java\raviteja\testcomponents\BaseTest.java"/>
 			<item value="C:\Users\vredd\eclipse-workspace\Dhurga_Java\src\programs\Static_Flow.java"/>
@@ -74,14 +75,12 @@
 	</section>
 	<section name="MavenProjectWizardArtifactPage">
 		<list key="groupId">
-			<item value="Framework"/>
-			<item value="LambdaTestDemo"/>
+			<item value="SDETDatabaseTesting"/>
 		</list>
 		<list key="name">
 		</list>
 		<list key="artifactId">
-			<item value="DataDrivenXL"/>
-			<item value="LambdaTestDemo"/>
+			<item value="SDETDatabaseTesting"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>
@@ -97,6 +96,7 @@
 	</section>
 	<section name="MavenProjectImportWizardPage">
 		<list key="rootDirectory">
+			<item value="C:\Users\vredd\eclipse-workspace\SeleniumFrameworkDesign"/>
 			<item value="C:\Users\vredd\Downloads\APIFramework"/>
 			<item value="C:\Users\vredd\OneDrive\Desktop\Ravi Personal\Rahul shetty courses\selenium webdriver\Selenium webdriver notes\BDD Cucumber Framework\Trainer code\CucumberFrameworkTrainerCode"/>
 			<item value="C:\Users\vredd\OneDrive\Desktop\Ravi Personal\Rahul shetty courses\selenium webdriver\Selenium webdriver notes\BDD Cucumber Framework\Trainer code\CucumberFramework"/>
